@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/hp.uss?fileID=7433441132597879392&amp;guid=8329478ef6a0d554f84d68c75e484e7e&amp;type=3#hp" />
+    <ui:Label text="&#10;[Space] Show Controls&#10;&#10;&#10;" display-tooltip-when-elided="true" />
+    <ui:VisualElement>
+        <ui:ProgressBar high-value="1" title="Health" name="HealthBar" style="width: 25%; justify-content: flex-start; align-items: stretch; -unity-background-image-tint-color: rgb(0, 0, 0); color: rgb(0, 0, 0);" />
+    </ui:VisualElement>
+    <ui:Label text="Missile Launcher" display-tooltip-when-elided="true" name="WeaponIndicator" />
+    <ui:VisualElement>
+        <ui:ProgressBar high-value="1" title="Cooldown" name="CooldownBar" style="width: 25%; justify-content: flex-start; align-items: stretch; -unity-background-image-tint-color: rgb(0, 0, 0); color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); -unity-text-outline-color: rgb(0, 0, 0);" />
+        <ui:Label text="OVERHEATED!" display-tooltip-when-elided="true" name="OverheatText" />
+    </ui:VisualElement>
+    <ui:Label text="TIME: " display-tooltip-when-elided="true" name="TimerText" style="top: 5%; font-size: 20px;" />
+    <ui:Label text="SCORE:" display-tooltip-when-elided="true" name="ScoreText" style="top: 5%; font-size: 20px;" />
+</ui:UXML>
